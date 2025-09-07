@@ -1,0 +1,161 @@
+/* Global font-face declarations
+   Note: This is an initial subset to get us started.
+   We can auto-generate the full list for all files in `01_BXYZ_AH_Fonts/` if desired. */
+
+/* AMDAL Regular */
+@font-face {
+  font-family: "AMDAL";
+  src: url("./01_BXYZ_AH_Fonts/AMDAL-Regular 2.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/AMDAL-Regular 2.woff") format("woff"),
+       url("./01_BXYZ_AH_Fonts/AMDAL-Regular.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/AMDAL-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Absans Regular */
+@font-face {
+  font-family: "Absans";
+  src: url("./01_BXYZ_AH_Fonts/Absans-Regular.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/Absans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* ApfelGrotezk Regular + Bold */
+@font-face {
+  font-family: "ApfelGrotezk";
+  src: url("./01_BXYZ_AH_Fonts/ApfelGrotezk-Regular.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/ApfelGrotezk-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ApfelGrotezk";
+  src: url("./01_BXYZ_AH_Fonts/ApfelGrotezk-Fett.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/ApfelGrotezk-Fett.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Agrandir Regular + GrandHeavy */
+@font-face {
+  font-family: "Agrandir";
+  src: url("./01_BXYZ_AH_Fonts/Agrandir-Regular.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/Agrandir-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir";
+  src: url("./01_BXYZ_AH_Fonts/Agrandir-GrandHeavy.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/Agrandir-GrandHeavy.woff") format("woff");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* Apple Garamond Light + Italic */
+@font-face {
+  font-family: "AppleGaramond";
+  src: url("./01_BXYZ_AH_Fonts/AppleGaramondLight.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/AppleGaramondLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AppleGaramond";
+  src: url("./01_BXYZ_AH_Fonts/AppleGaramondLight-Italic.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/AppleGaramondLight-Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+/* EBGaramond Regular */
+@font-face {
+  font-family: "EBGaramond12";
+  src: url("./01_BXYZ_AH_Fonts/EBGaramond12-Regular.woff2") format("woff2"),
+       url("./01_BXYZ_AH_Fonts/EBGaramond12-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* DM Sans Regular + Bold */
+@font-face {
+  font-family: "DMSans";
+  src: url("./01_BXYZ_AH_Fonts/DMSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("./01_BXYZ_AH_Fonts/DMSans-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Behover Regular */
+@font-face {
+  font-family: "Behover";
+  src: url("./Behover-Regular.woff2") format("woff2"),
+       url("./Behover-Regular.woff") format("woff"),
+       url("./Behover-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* GrangeRough DemiBoldExt */
+@font-face {
+  font-family: "GrangeRough";
+  src: url("./GrangeRough-DemiBoldExt.woff2") format("woff2"),
+       url("./GrangeRough-DemiBoldExt.woff") format("woff"),
+       url("./GrangeRough-DemiBoldExt.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trattatello';
+  src: url('Trattatello.woff2') format('woff2'),
+      url('Trattatello.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Necto Mono Regular */
+@font-face {
+  font-family: "NectoMono";
+  src: url("./NectoMono-Regular.woff2") format("woff2"),
+       url("./NectoMono-Regular.woff") format("woff"),
+       url("./01_BXYZ_AH_Fonts/NectoMono-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Generic mapping variables using :root to control global fonts */
+:root{
+  /* Default to Akzidenz Grotesk as primary. Bold weight file not found; browser may synthesize bold.
+     Add a Bold cut (e.g., AkzidenzGroteskBQ-Bold.woff2) and re-run `node generate-fonts.js` to use true bold. */
+  --font-primary: "Behover";
+  --font-secondary: "GrangeRough";
+  --font-monospace: "NectoMono";
+}
+
+/* Utility: apply global fonts */
+html, body { font-family: var(--font-primary); }
+.h-serif { font-family: var(--font-secondary); }
+.h-mono { font-family: var(--font-monospace); }

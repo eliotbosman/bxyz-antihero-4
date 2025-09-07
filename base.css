@@ -1,0 +1,71 @@
+/* bxyz written doc pls write eliot@bosmanxyz.xyz for queries and chats*/
+/* <<bxyz bokmarke>> base reset and globals */
+
+/* <<bxyz bokmarke>> Global styles and resets */
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+}
+
+/* <<bxyz bokmarke>> core html/body defaults */
+html,body{height:100%}
+html{scroll-behavior:smooth}
+body{
+  background:var(--color-secondary);
+  color:var(--color-primary);
+  font-family: var(--font-primary);
+  font-weight: 700; /* default to Bold as requested */
+  font-size:var(--fs-s);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+  /* Global text transform applied once */
+  text-transform: uppercase;
+}
+
+/* Apply vertical stretch to xs, s, and m font sizes */
+.fs-xs, [style*="--fs-xs"], *[class*="fs-xs"] {
+  transform: scaleY(200%) rotate(0deg) !important;
+}
+
+.fs-s, [style*="--fs-s"], *[class*="fs-s"] {
+  transform: scaleY(200%) rotate(0deg) !important;
+}
+
+.fs-m, [style*="--fs-m"], *[class*="fs-m"] {
+  transform: scaleY(200%) rotate(0deg) !important;
+}
+
+/* Target elements using these font size variables */
+*[style*="font-size: var(--fs-xs)"],
+*[style*="font-size:var(--fs-xs)"] {
+  transform: scaleY(200%) rotate(0deg) !important;
+}
+
+*[style*="font-size: var(--fs-s)"],
+*[style*="font-size:var(--fs-s)"] {
+  transform: scaleY(200%) rotate(0deg) !important;
+}
+
+*[style*="font-size: var(--fs-m)"],
+*[style*="font-size:var(--fs-m)"] {
+  transform: scaleY(200%) rotate(0deg) !important;
+}
+
+/* <<bxyz bokmarke>> media defaults */
+img,svg,video,canvas{display:block;max-width:100%;height:auto}
+
+/* <<bxyz bokmarke>> forms inherit font */
+input,button,textarea,select{font:inherit}
+
+/* <<bxyz bokmarke>> links default */
+a{color:inherit;text-decoration:none}
+
+/* <<bxyz bokmarke>> lists reset */
+ul,ol{list-style:none;padding:0}

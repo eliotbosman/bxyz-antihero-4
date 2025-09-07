@@ -1,0 +1,49 @@
+/* bxyz written doc pls write eliot@bosmanxyz.xyz for queries and chats*/
+/* <<bxyz bokmarke>> design tokens */
+:root{
+  /* <<bxyz bokmarke>> typography */
+  --font-primary: "Grange Rough", Arial, sans-serif;
+  --font-secondary: "Behoven", Arial, sans-serif;
+
+  /* <<bxyz bokmarke>> colors */
+  --color-primary: black;       /* formerly --color-black */
+  --color-secondary: whitesmoke;  /* formerly --color-whitesmoke */
+  --color-third: #f2df72;
+  --color-fourth: #6b7339;
+  --color-fifth: #bb4372;
+  --color-sixth: #6270a7;
+
+  /* <<bxyz bokmarke>> typography scale (rem) */
+  --fs-xs: 0.75rem;
+  --fs-s: 0.875rem;
+  --fs-m: 1rem;
+  --fs-l: 1.25rem;
+  --fs-xl: 1.5rem;
+
+  /* <<bxyz bokmarke>> margin scale (rem) */
+  --m-xs: 0.25rem;
+  --m-s: 0.5rem;
+  --m-m: 1rem;
+  --m-l: 1.5rem;
+  --m-xl: 2rem;
+
+  /* <<bxyz bokmarke>> padding scale (rem) */
+  --p-xs: 0.25rem;
+  --p-s: 0.5rem;
+  --p-m: 1rem;
+  --p-l: 1.5rem;
+  --p-xl: 2rem;
+
+  /* <<bxyz bokmarke>> image proportions & sizes */
+  --ratio-std: 4 / 5;
+  --img-std: 640px;
+  --img-hd: 1280px;
+  --img-2k: 2048px;
+  --img-4k: 3840px;
+
+  /* <<bxyz bokmarke>> section height scale (dvh) */
+  --section-s: 25dvh;
+  --section-m: 50dvh;
+  --section-l: 75dvh;
+  --section-xl: 100dvh;
+}

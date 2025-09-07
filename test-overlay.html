@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overlay Test</title>
+    <style>
+        .test-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: red;
+            z-index: 9999;
+            display: none;
+        }
+        .test-btn {
+            padding: 20px;
+            font-size: 20px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="test-btn" onclick="showOverlay()">Test Overlay</button>
+    <div class="test-overlay" id="test-overlay">
+        <h1 style="color: white; text-align: center; margin-top: 200px;">OVERLAY WORKS!</h1>
+        <button onclick="hideOverlay()" style="color: white; background: black; padding: 10px;">Close</button>
+    </div>
+    
+    <script>
+        function showOverlay() {
+            console.log('Showing overlay');
+            document.getElementById('test-overlay').style.display = 'block';
+        }
+        function hideOverlay() {
+            console.log('Hiding overlay');
+            document.getElementById('test-overlay').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
